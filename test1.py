@@ -8,7 +8,7 @@ git push 提交到远程分支master
 
 
 在公司更新了代码，在家里也需要用时，用git pull远程新的代码，更新到本地
-
+git clone
 
 
 每次更新代码，git status 查看仓库代码状态，更新的什么
