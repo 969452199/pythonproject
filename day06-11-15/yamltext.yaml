@@ -1,0 +1,20 @@
+ZHANGSAN:
+    age:17
+    gread:3
+    class:4
+LISI:
+    age:18
+    gread:3
+    class:5
+WANGWU:
+  age: 18
+  class: 6
+  gread: 3
+WANGWU:
+  age: 18
+  class: 6
+  gread: 3
+
+SDHY:
+  - admin:12347
+  - admin:35457
