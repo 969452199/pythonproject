@@ -1,6 +1,7 @@
 1.创建一个新项目，按操作执行
 
 2.更新代码想要提交，步骤：
+在Terminal中
 git status查看仓库代码状态，更新的什么
 git add . ,编译文件，若报错，再编译一次，直到没有任何提示
 git commit -m “备注内容”
@@ -15,3 +16,10 @@ git clone
 git add .  编译文件，再进行一次git add .
 git commit -m "备注"
 git push 提交代码
+
+==========使用Pythonchaim自带GIT工具===============
+1.点击commit
+2.勾选需要上传的代码文件
+3.点击commit and push
+
+
