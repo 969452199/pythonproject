@@ -14,9 +14,11 @@ class LaGouLogin(unittest.TestCase):
     def test_register_01(self):
         driver = self.driver
         ltt = self.driver.find_element_by_class_name('focus')
+        time.sleep(3)
         if ltt:
             ltt.click()
             self.driver.find_element_by_class_name('register').click()
+            time.sleep(2)
         else:
             self.driver.find_element_by_class_name('register').click()
         lts = self.driver.find_elements_by_class_name('register_enter')
