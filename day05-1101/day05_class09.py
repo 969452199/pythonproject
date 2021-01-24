@@ -12,6 +12,7 @@ class data:
             dat = json.load(fp)
             return dat
 
+
     def get_json(self,id):
         return self.dat[id]
 
@@ -19,13 +20,13 @@ class data:
         with open("G:\\pythonproject\\afternoom.json") as fp:
             fp.writelines(json.dumps(dat))
 if __name__=='__main__':
-    opecjson = data()
-    print(opecjson.get_json('name'))
-    print(opecjson.get_json('age'))
-    print(opecjson.get_json('class'))
+    # opecjson = data()
+    # print(opecjson.get_json('sed'))
+    # print(opecjson.get_json('age'))
+    # print(opecjson.get_json('class'))
     op = data(file_path='G:\\pythonproject\\afternoom.json')
     print(op.get_json('foot'))
-    opecjson.write_json({"qw":1})
+    # opecjson.write_json({"qw":1})
 
 
 

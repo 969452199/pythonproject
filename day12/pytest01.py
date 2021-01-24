@@ -22,7 +22,7 @@ class TestClass:
 if __name__=='__main__':
     #pytest.main(['-v','pytest01.py'])#执行整个文件中的所有用例
     #pytest.main(['-v','-s','-k=case04','pytest01.py'])#-k=  执行匹配关键字的用例,如-k=case04
-    #pytest.main(['-v','pytest01.py'])#装饰器，只执行装饰器下的一条用例，如果需指定多条用例，需要一一对应输入装饰器；webtest随意命名
+    #pytest.main(['-v','pytest01.py'])#装饰器，只执行装饰器下的一条用例，如果需指定多条用例，需要一一对应输入装饰器；webtest随意命名,在CLASS类中写一次全部适用
     pytest.main(['-v', '-s', 'pytest01.py', '--alluredir', './allure-result', '--clean-alluredir'])
     # time.sleep(1)
     # os.system('xcopy .\\allure-result\public .\\allure-result /e /Y /I')
